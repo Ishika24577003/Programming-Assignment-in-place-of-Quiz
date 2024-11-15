@@ -8,15 +8,9 @@
    Use the readline method to read the file line by line, which allows us to handle large files without loading the entire file into memory. Process Each Line Print the matching lines to 
    standard output using the print function
 # Q2.Plot_lines 
-      library imports 
-       the script begins by importing the ggplot2 library for data visualization.
-       command- line arg 
-       It retrives command-line args for the output  file name , x-axis label, y-axis label , and the plot tittle.
-       data reading:
-      The scripts reads tab seperated data from  stdin , later assigning column names  "X', "Y", and "Category" to the dataset.
-    custom color:
-      A custom color pallette is defined  for different categories in the data .
-    plot creation:
-      line plot was generated using ggplot2 , mapping the x axis to "X", the y- axis to "Y", and color to "Category". 
-   Saving the plot: 
+      importing the 'ggplot2' libaray for data visualization 
+      command line arguments for the output file name , x-axis label , and plot tittle 
+      data reading the scripts basically reads the tsv files from stdin , assigning column names X, Y and category to the dataset
+      custom color palette is defined 
+      plot is created mapping x-axis to X, y-axis to Y and color to catergory
       saves plot using "ggsave" function in .png.
