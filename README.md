@@ -12,4 +12,5 @@
 importing the 'ggplot2' libaray for data visualization command line arguments for the output file name , x-axis label , and plot tittle 
 data reading the scripts basically reads the tsv files from stdin , assigning column names X, Y and category to the dataset.custom color palette is defined.plot is created mapping x-axis to X, y-axis to Y and color to catergory. saves plot using "ggsave" function in .png.
 
-   
+# Q3.merged lines 
+  
