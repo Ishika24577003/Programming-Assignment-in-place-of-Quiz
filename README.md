@@ -7,5 +7,7 @@
    gzip module.
    Use the readline method to read the file line by line, which allows us to handle large files without loading the entire file into memory. Process Each Line Print the matching lines to 
    standard output using the print function
-   # Q.2 plot_lines 
+
+# Q2.plot_lines 
+hj
    
